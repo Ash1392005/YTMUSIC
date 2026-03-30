@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/api/trending",      "destination": "/api/trending.js" },
+    { "source": "/api/search",        "destination": "/api/search.js" },
+    { "source": "/api/video/:id",     "destination": "/api/video.js" },
+    { "source": "/api/channel/:id",   "destination": "/api/channel.js" }
+  ]
+}
