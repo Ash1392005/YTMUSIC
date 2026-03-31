@@ -6,9 +6,7 @@ export default async function handler(req, res) {
   const region = req.query.region || 'IN';
 
   try {
-    const upstream = await fetch(
-      `https://pipedapi.kavin.rocks/trending?region=${region}`,
-      { headers: { 'User-Agent': 'FreeVid/1.0' } }
+     https://pipedapi.moomoo.me/trending?region=${region}
     );
 
     if (!upstream.ok) throw new Error(`Piped error: ${upstream.status}`);
