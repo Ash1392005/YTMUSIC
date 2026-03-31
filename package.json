@@ -1,5 +1,6 @@
 {
-  "name": "freevid-api",
-  "version": "1.0.0",
-  "private": true
-}
+   2   "name": "freevid-api",
+   3   "version": "1.0.0",
+   4   "type": "module",
+   5   "private": true
+   6 }
